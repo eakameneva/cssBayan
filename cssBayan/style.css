@@ -1,0 +1,57 @@
+body {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.wrap {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (hover: hover) {
+  .acc-content:hover {
+    outline: groove pink 4px;
+    border-radius: 3px;
+  }
+}
+
+.acc-content img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+summary {
+  cursor: pointer;
+  padding: 3px;
+  font-family: Lora, Arial, serif;
+}
+
+details:not(:first-of-type) {
+  border-top: none;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+details {
+  border: 3px black solid;
+  width: 60%;
+  font-size: 1rem;
+  border-radius: 3px;
+  background-color: bisque;
+}
+
+@media (max-width: 820px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 320px) {
+  html {
+    font-size: 10px;
+  }
+}
